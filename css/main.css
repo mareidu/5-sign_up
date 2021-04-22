@@ -68,6 +68,26 @@ body {
 
 .right-column {
     width: 60%;
-    float: left;
-    background-color: yellow;
+    float: right;
+    padding: 60px;
+    background-color: #fff;
+    position: relative;
+}
+
+.close {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 57px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #777;
+}
+
+.close:hover {
+    color: #333;
+    cursor: pointer;
 }
