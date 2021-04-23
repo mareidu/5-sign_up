@@ -50,5 +50,16 @@ form > .form-row > span {
     padding: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    
+    font-size: 18px;
+    line-height: 20px;
+}
+
+form > .form-row > a {
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #015cda;
+    text-decoration: none;
+    font-weight: bold;
 }
